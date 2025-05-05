@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Camper Rentals Calendar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .calendarContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto;
+      max-width: 900px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    iframe {
+      margin-top: 10px;
+      margin-bottom: 30px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Camper Rentals Calendar</h1>
+  <div class="calendarContainer">
+    <h2>First Calendar</h2>
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=e1i5kgojliuk0i0mnh3fvdgdp4ieipst%40import.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis"
+      width="800"
+      height="600"
+      scrolling="no">
+    </iframe>
+
+    <h2>Second Calendar</h2>
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=t3u5b6i5ho1onj56fiqvhq4v63vmtem8%40import.calendar.google.com&ctz=America%2FIndiana%2FIndianapolis"
+      width="800"
+      height="600"
+      scrolling="no">
+    </iframe>
+  </div>
+</body>
+</html>
